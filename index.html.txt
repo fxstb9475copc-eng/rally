@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>ゴリラスタンプラリー</title>
+  <style>
+    body { text-align: center; font-family: sans-serif; }
+    a { display: block; margin: 10px; }
+  </style>
+</head>
+<body>
+  <h1>ゴリラスタンプラリー</h1>
+  <p>QRコードを読み込んでスタンプを集めよう！</p>
+  <p>コンプリート確認はこちら：</p>
+  <a href="gorilla.html">ゴリラコレクションを見る</a>
+</body>
+</html>

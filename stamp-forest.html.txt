@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>スタンプ獲得 - forest</title>
+  <style>
+    body { text-align: center; font-family: sans-serif; }
+    img { width: 80%; max-width: 300px; margin: 20px; }
+  </style>
+</head>
+<body>
+  <h2>スタンプ獲得！</h2>
+  <img src="forest.png" alt="forest">
+
+  <p>ゴリラコレクションはこちら：</p>
+  <a href="gorilla.html?place=forest">コレクションを見る</a>
+
+  <script>
+    const place = "forest";
+    const gorillas = ["forest", "view", "main", "utan"];
+
+    let collected = JSON.parse(localStorage.getItem("gorillas") || "[]");
+    if (!collected.includes(place)) {
+      collected.push(place);
+      localStorage.setItem("gorillas", JSON.stringify(collected));
+    }
+  </script>
+</body>
+</html>
